@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: stephengalbraith
+Build-Jdk: 1.8.0_25
+Extension-Name: aws-bucket-credentials
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: aws-bucket-credentials
+Implementation-Version: 0.2.2
+Group-Id: uk.co.stevegal
+Short-Name: aws-bucket-credentials
+Long-Name: Amazon S3 Bucket Credentials Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/AWS+Bucket+Credential
+ s+Plugin
+Plugin-Version: 0.2.2
+Hudson-Version: 1.596.1
+Jenkins-Version: 1.596.1
+Plugin-Dependencies: credentials:2.1.11,credentials-binding:1.7,aws-ja
+ va-sdk:1.11.68
+Plugin-Developers: Stephen Galbraith:stevegal:stephenjgalbraith+jenkin
+ s_support@gmail.com
+

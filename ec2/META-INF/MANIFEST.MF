@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: danielbeck
+Build-Jdk: 1.8.0_121
+Extension-Name: ec2
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: ec2
+Implementation-Version: 1.38
+Plugin-Class: hudson.plugins.ec2.PluginImpl
+Group-Id: org.jenkins-ci.plugins
+Short-Name: ec2
+Long-Name: Amazon EC2 plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Amazon+EC2+Plugin
+Plugin-Version: 1.38
+Hudson-Version: 1.651.3
+Jenkins-Version: 1.651.3
+PluginFirstClassLoader: true
+Plugin-Dependencies: bouncycastle-api:1.648.3,aws-java-sdk:1.11.119,wo
+ rkflow-cps:2.25,node-iterator-api:1.5,aws-credentials:1.11,workflow-s
+ tep-api:2.9,workflow-durable-task-step:2.8
+Plugin-Developers: Francis Upton IV:francisu:fupton@talend.com,Johnny 
+ Shields:johnnyshields:shields@kkvesper.jp,Kohsuke Kawaguchi:kohsuke:k
+ kawaguchi@cloudbees.com
+
